@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color1"
+    tools:context=".DetailActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/al_jazari"
+        android:id="@+id/imgDetailPemain"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="161dp"
+        android:gravity="center"
+        android:text="Al-Jazari"
+        android:layout_alignParentLeft="true"
+        android:textSize="20dp"
+        android:id="@+id/txtdetailNama"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="195dp"
+        android:text="Andai ku tahu ku tahu kapan tiba ajal ku kuakan memohon tuhan jangan kau ambil nyawaku
+aku takut dari segala dosa dosa ku izinkan aku mengucap kata taubat padaku aku takut dari segala dosa dosa ku
+kua akan memohon tuhan tolong panjanfkan umur ku"
+        android:paddingLeft="8dp"
+        android:id="@+id/txtDetail"/>
+
+</RelativeLayout>
